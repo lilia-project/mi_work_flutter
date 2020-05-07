@@ -12,15 +12,9 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Row(
-//            verticalDirection: VerticalDirection.down,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//            crossAxisAlignment: CrossAxisAlignment.stretch,
-//            verticalDirection: VerticalDirection.down,
             children: <Widget>[
-              Container(
-                width: 100.0,
-                color: Colors.red,
-              ),
+              Container(width: 100.0, color: Colors.red),
               Container(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -34,7 +28,6 @@ class MyApp extends StatelessWidget {
               Container(
                 width: 100.0,
                 color: Colors.blue,
-//                alignment: Alignment.bottomRight,
               ),
             ],
           ),
